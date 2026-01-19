@@ -6,20 +6,25 @@
     <title>Portfolio | Full Stack Developer</title>
     <link rel="stylesheet" href="./style.css">
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
 </head>
 
 <body>
+ 
+
 
 <header>
     <a href="#" class="logo">Jes<span>lin.</span></a>
     <nav>
         <a href="#home" class="active">Home</a>
         <a href="#about">About</a>
-        <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
+        <a href="#resume">Resume</a>
     </nav>
 </header>
 
@@ -45,63 +50,47 @@
         <a href="#contact" class="btn">Get Started</a>
     </div>
 
-    <div class="profile-area">
+   <div class="profile-area">
         <div class="profile-outer">
-            <img src="assets/Jes (1).jpg" alt="Profile of Jeslin">
+            <img src="assets/jeslin.jpg" alt="Jeslin profile photo">
         </div>
+        <div class="profile-name">JESLIN MARIA JESURAJA</div>
     </div>
+</div>
+
+   
 </section>
 
 <section class="about" id="about">
-    <h2>About <span>Me</span></h2>
-    <div class="about-content">
-         <div class="about-text">
-            <p><strong>Hi! I'm Jeslin,</strong> a Full Stack Developer with a deep love for technology and design. My journey began with a curiosity about how things work on the internet, which led me to the <strong>Freshworks Academy</strong>. There, I sharpened my skills in building real-world applications from scratch.</p>
-            
-            <p>I don't just write code; I solve problems. Whether it's designing a clean user interface or building a powerful backend database, I make sure every detail is perfect. My goal is to create software that is not only functional but also easy and fun for people to use.</p>
-            
-            <p>When I’m not coding, I’m usually exploring new design trends, learning new programming languages, or helping other developers grow. I believe that learning never stops, and I am always looking for the next big challenge to tackle.</p>
-        </div>
-    </div>
-</section>
+    <h2 class="journey-title">My Journey</h2>
 
-<section class="skills" id="skills">
-    <h2>Technical <span>Skills</span></h2>
-    <div class="skills-container">
-        <div class="skill-col">
-            <h3>Development</h3>
-            <div class="skill-list">
-                <div class="skill-item">
-                    <div class="skill-info"><span>HTML/CSS</span><span>95%</span></div>
-                    <div class="skill-bar"><span style="width: 95%"></span></div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-info"><span>Python</span><span>85%</span></div>
-                    <div class="skill-bar"><span style="width: 85%"></span></div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-info"><span>JavaScript</span><span>80%</span></div>
-                    <div class="skill-bar"><span style="width: 80%"></span></div>
-                </div>
+    <div class="timeline">
+
+        <!-- Item 1 -->
+        <div class="journey-item">
+            <div class="journey-img">
+                <img src="assets/image.png" alt="Education">
+            </div>
+            <div class="journey-text">
+                <span>EDUCATION</span>
+                <h3>The Beginning</h3>
+                <p>I complete my 12th grade in 2025.after that i join Freshworks STS software Academy.</p>
             </div>
         </div>
-        <div class="skill-col">
-            <h3>Soft Skills</h3>
-            <div class="skill-list">
-                <div class="skill-item">
-                    <div class="skill-info"><span>Problem Solving</span><span>95%</span></div>
-                    <div class="skill-bar"><span style="width: 95%"></span></div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-info"><span>Teamwork</span><span>80%</span></div>
-                    <div class="skill-bar"><span style="width: 80%"></span></div>
-                </div>
-                 <div class="skill-item">
-                    <div class="skill-info"><span>Creativity</span><span>90%</span></div>
-                    <div class="skill-bar"><span style="width: 90%"></span></div>
-                </div>
+
+        <!-- Item 2 -->
+        <div class="journey-item reverse">
+            <div class="journey-img">
+                <img src="./assets/Jes (1).jpg" alt="Projects">
             </div>
+            <div class="journey-text">
+                <span>PROJECTS</span>
+                <h3>Learning by Doing</h3>
+                <p>Real projects helped me improve my web development skills.</p>
+            </div>
+            
         </div>
+
     </div>
 </section>
 <section class="projects" id="projects">
@@ -109,33 +98,126 @@
 
     <div class="project-container">
 
-        
         <div class="project-box">
-            <a href="https://jeslinjesuraja.github.io/Counselling_Website/" target="_blank">
-                <img src="./assets/Screenshot 2026-01-05 172054.png" alt="Project 2">
-            </a>
+    <a href="https://jeslinjesuraja.github.io/Counselling_Website/" target="_blank">
+        <img src="./assets/Screenshot 2026-01-05 172054.png">
+
+        <div class="project-info">
+            <h3>Counselling Website</h3>
+            <p>Mental health support platform</p>
         </div>
+    </a>
+</div>
+
 
         
         <div class="project-box">
             <a href="https://jeslinjesuraja.github.io/pet-zone/" target="_blank">
                 <img src="./assets/Screenshot 2026-01-05 171922.png" alt="My Website">
+                <div class ="project-info">
+                    <h3>Pet E-commerce</h3>
+                    <p>Easy to connect pet</p>
+
+                </div>
             </a>
         </div>
 
     </div>
 </section>
+<section class="skills" id="skills">
+  <h2>My <span>Skills</span></h2>
 
+  <!-- Technical Skills -->
+  <div class="skills-grid">
+    <div class="skill-card">
+      <div class="circle" style="--percent:95%">
+        <span>95%</span>
+      </div>
+      <div class="skill-name">HTML / CSS</div>
+      <div class="skill-desc">Responsive Design</div>
+    </div>
 
-<section class="contact" id="contact">
-    <h2>Contact <span>Me</span></h2>
-    <form action="#">
-        <div class="input-group"><input type="text" placeholder="Your Name" required></div>
-        <div class="input-group"><input type="email" placeholder="Email Address" required></div>
-        <div class="input-group"><textarea rows="6" placeholder="Your Message" required></textarea></div>
-        <button type="submit" class="btn" style="width: 100%; cursor: pointer;">Send Message</button>
-    </form>
+    <div class="skill-card">
+      <div class="circle" style="--percent:80%">
+        <span>80%</span>
+      </div>
+      <div class="skill-name">JavaScript</div>
+      <div class="skill-desc">Dynamic UI</div>
+    </div>
+
+    <div class="skill-card">
+      <div class="circle" style="--percent:85%">
+        <span>85%</span>
+      </div>
+      <div class="skill-name">Python</div>
+      <div class="skill-desc">Backend Logic</div>
+    </div>
+
+    <div class="skill-card">
+      <div class="circle" style="--percent:70%">
+        <span>70%</span>
+      </div>
+      <div class="skill-name">FastAPI</div>
+      <div class="skill-desc">API Development</div>
+    </div>
+
+    <div class="skill-card">
+      <div class="circle" style="--percent:90%">
+        <span>90%</span>
+      </div>
+      <div class="skill-name">Figma</div>
+      <div class="skill-desc">UI Design</div>
+    </div>
+  </div>
+
+  <!-- Personal Skills -->
+  <h3 class="sub-title">Personal Skills</h3>
+  <div class="skills-grid personal-skills-grid">
+    <div class="personal-card">Communication</div>
+    <div class="personal-card">Teamwork</div>
+    <div class="personal-card">Problem Solving</div>
+    <div class="personal-card">Time Management</div>
+    <div class="personal-card">Creativity</div>
+    <div class="personal-card">Adaptability</div>
+    <div class="personal-card">Leadership</div>
+  </div>
 </section>
+
+
+</div>
+</div>
+</section>
+
+<section class="contact-section" id="contact">
+    <h2>Connect <span>With Me</span></h2>
+    <p class="contact-subtitle">Click any icon to reach me instantly</p>
+
+    <div class="contact-icons">
+        <a href="mailto:jeslinm23@gmail.com" class="contact-box" title="Email">
+            <i class='bx bx-envelope'></i>
+            <span>Email</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/jeslin-m-jesuraja-0401ba395" target="_blank" class="contact-box" title="LinkedIn">
+            <i class='bx bxl-linkedin'></i>
+            <span>LinkedIn</span>
+        </a>
+
+        <a href="https://github.com/jeslinjesuraja" target="_blank" class="contact-box" title="GitHub">
+            <i class='bx bxl-github'></i>
+            <span>GitHub</span>
+        </a>
+    </div>
+</section>
+<section class="resume-section" id="resume">
+    <img src="assets/Screenshot 2026-01-19 131237.png" width="600px" alt="resume">
+</section>
+
+
+
+
+
+
 
 <footer>
     <p>© 2026 Jeni | Full Stack Developer | All Rights Reserved</p>
